@@ -122,12 +122,13 @@ section#section_about {
 section#section_about .white .marginbottom {
   position: absolute;
   width: 100%;
-  bottom: 0%;
+  bottom: 0px;
   -webkit-animation: upin 2s;
           animation: upin 2s;
   z-index: 5;
 }
 section#section_about .container {
+  margin-bottom: 3%;
   -webkit-transform: rotate(15deg) scale(0.9);
           transform: rotate(15deg) scale(0.9);
 }
@@ -139,6 +140,7 @@ section#section_about .container {
 }
 section#section_about .row {
   height: 150px;
+  margin-bottom: 60px;
   color: #EBF0F6;
 }
 section#section_about .row .r1text {
@@ -178,14 +180,13 @@ section#section_about .bear {
   width: 30%;
   max-width: 300px;
   position: absolute;
-  bottom: -2px;
-  right: 25px;
+  bottom: -5px;
 }
 section#section_about #bear {
   width: 30%;
   max-width: 300px;
   position: absolute;
-  right: 0px;
+  right: 8%;
   bottom: 0px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -257,6 +258,9 @@ section#section_works .marginbottom {
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
+section#section_works .container {
+  margin-bottom: 8%;
+}
 section#section_works .container .row {
   margin: 50px 0px 100px 0px;
 }
@@ -322,10 +326,12 @@ section#section_contact {
   color: #272343;
   overflow: hidden;
 }
+section#section_contact .container {
+  margin-top: 8%;
+}
 section#section_contact .bear {
   width: 150px;
   position: absolute;
-  bottom: 0;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -353,7 +359,7 @@ section#section_contact .margintop {
 section#section_contact .marginbottom {
   position: absolute;
   width: 120%;
-  bottom: 0;
+  bottom: -8%;
   left: -5%;
   z-index: 5;
 }
