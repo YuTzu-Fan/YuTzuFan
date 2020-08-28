@@ -264,6 +264,11 @@ section#section_works .marginbottom {
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
+@media screen and (max-width: 600px) {
+  section#section_works .marginbottom {
+    left: -10%;
+  }
+}
 section#section_works .container {
   margin-bottom: 8%;
 }
@@ -346,11 +351,26 @@ section#section_contact #bear_blue {
   right: 300px;
   z-index: 3;
 }
+@media screen and (max-width: 600px) {
+  section#section_contact #bear_blue {
+    right: 60%;
+  }
+}
 section#section_contact #bear_white {
   right: 200px;
 }
+@media screen and (max-width: 600px) {
+  section#section_contact #bear_white {
+    right: 35%;
+  }
+}
 section#section_contact #bear_gray {
   right: 100px;
+}
+@media screen and (max-width: 600px) {
+  section#section_contact #bear_gray {
+    right: 10%;
+  }
 }
 section#section_contact .margintop {
   position: absolute;
@@ -362,6 +382,11 @@ section#section_contact .margintop {
   z-index: 5;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+}
+@media screen and (max-width: 600px) {
+  section#section_contact .margintop {
+    left: -10%;
+  }
 }
 section#section_contact .marginbottom {
   position: absolute;
@@ -423,8 +448,8 @@ section#section_contact .bottle .bottletext {
 }
 @media screen and (max-width: 620px) {
   section#section_contact .bottle .bottletext {
-    -webkit-transform: scale(1) translate(0%, 0%);
-            transform: scale(1) translate(0%, 0%);
+    -webkit-transform: scale(1) translate(-5%, 10%);
+            transform: scale(1) translate(-5%, 10%);
   }
 }
 
