@@ -266,7 +266,7 @@ section#section_works .marginbottom {
 }
 @media screen and (max-width: 600px) {
   section#section_works .marginbottom {
-    left: -10%;
+    left: -12%;
   }
 }
 section#section_works .container {
@@ -385,7 +385,7 @@ section#section_contact .margintop {
 }
 @media screen and (max-width: 600px) {
   section#section_contact .margintop {
-    left: -10%;
+    left: -12%;
   }
 }
 section#section_contact .marginbottom {
@@ -448,8 +448,8 @@ section#section_contact .bottle .bottletext {
 }
 @media screen and (max-width: 620px) {
   section#section_contact .bottle .bottletext {
-    -webkit-transform: scale(1) translate(-5%, 10%);
-            transform: scale(1) translate(-5%, 10%);
+    -webkit-transform: scale(1) translate(-5%, 15%);
+            transform: scale(1) translate(-5%, 15%);
   }
 }
 
