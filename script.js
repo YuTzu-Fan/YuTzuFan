@@ -81,23 +81,3 @@ $(window).mousemove(function(evt){
   
   
 });
-
-
-
-//vue監看物件
-var vm = new Vue({
-  el: "#app",
-  data: {
-    works: []
-  },
-  mounted: function(){
-    var vobj=this;
-    $.ajax({
-      url: "https://awiclass.monoame.com/api/command.php?type=get&name=projects",
-      success: function(res){
-        vobj.works=JSON.parse(res);
-      }
-    });
-  }
-  
-});
