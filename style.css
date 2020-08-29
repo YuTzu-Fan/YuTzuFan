@@ -3,6 +3,10 @@
   font-family: "Oswald", "微軟正黑體";
 }
 
+* {
+  border: solid 1px !important;
+}
+
 html, body {
   overflow-x: hidden;
   font-size: 16px;
@@ -280,6 +284,7 @@ section#section_works .container .row .col-sm-12 h1 {
 }
 section#section_works .container .row .col-sm-4 {
   overflow: hidden;
+  margin-top: 50px;
 }
 section#section_works .container .work {
   height: 200px;
