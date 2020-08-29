@@ -68,8 +68,8 @@ $(window).mousemove(function(evt){
   
   
   
-  $(".r1text").css("transform","translateX("+(pagey/-8)+"px)")
-  $(".r2text").css("transform","translateX("+(pagey/-10)+"px)")
+  $(".r1text").css("transform","translateX("+(pagey/-10)+"px)")
+  $(".r2text").css("transform","translateX("+(pagey/-11)+"px)")
   $(".r3text").css("transform","translateX("+(pagey/-12)+"px)")
   
   
