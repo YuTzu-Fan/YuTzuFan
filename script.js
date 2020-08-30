@@ -6,6 +6,15 @@ $(window).scroll(function(e){
 });
 
 
+$('.navbar').on('click','a',function(event){
+  event.preventDefault();
+  var target= $(this).attr("href");
+  $('html,body').animate({
+    scrollTop: $(target).offset().top
+  },500);
+  
+});
+
 
 function detect_bear(baer_id,x){
   var bearplace=$(baer_id).offset().left+$(baer_id).width()/2;
